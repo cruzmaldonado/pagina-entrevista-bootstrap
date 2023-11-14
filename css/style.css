@@ -90,7 +90,7 @@ Sobreescribiendo los estilos de bootstrap
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(2, 85, 125, 0.5); }
+  background-color: rgba(2, 85, 125, 0.4); }
 
 .imagen {
   width: 100%;
@@ -135,17 +135,43 @@ Sobreescribiendo los estilos de bootstrap
 .text-icon {
   font-size: 8px; }
 
-.bg-1 {
-  background-image: url("/images/IMAGE  CATEGORY ADMINISTRATION.jpg");
+.bg-study-careers {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1; }
+  min-height: 80px;
+  z-index: 4; }
+
+.bg-1 {
+  background-image: url("/images/IMAGE  CATEGORY ADMINISTRATION.jpg"); }
+
+.bg-2 {
+  background-image: url("/images/IMAGE  CATEGORY ACCOUNTING.jpg"); }
+
+.bg-3 {
+  background-image: url("/images/IMAGE  CATEGORY ARCHITECTURE.jpg"); }
+
+.bg-4 {
+  background-image: url("/images/IMAGE  CATEGORY MATHEMATICS.jpg"); }
+
+.bg-5 {
+  background-image: url("/images/IMAGE  CATEGORY PROGRAMMING.jpg"); }
+
+.bg-6 {
+  background-image: url("/images/IMAGE  CATEGORY BIOLOGY.jpg"); }
+
+.card-effect {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out; }
+
+.card-effect:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05); }
 
 html {
   font-size: 13px; }
@@ -172,7 +198,7 @@ SHOW DE LOS MEDIAS QUERIES
     height: 10px; }
 
   .card-height {
-    height: 245px; } }
+    height: 225px; } }
 @media (min-width: 576px) {
   .contenedor-circulo {
     width: 60px;

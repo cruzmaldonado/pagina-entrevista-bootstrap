@@ -103,28 +103,12 @@ Sobreescribiendo los estilos de bootstrap
           transform: translate(-50%, -50%);
   text-align: center; }
 
-.icono-varios {
-  background-color: #fff;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  overflow: hidden; }
-
 .contenedor-circulo {
   padding: 0;
   margin: 0;
   position: relative;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background-color: #fff;
   border-radius: 50%;
   margin: 10px; }
@@ -135,8 +119,8 @@ Sobreescribiendo los estilos de bootstrap
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -146,6 +130,9 @@ Sobreescribiendo los estilos de bootstrap
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+
+.text-icon {
+  font-size: 8px; }
 
 html {
   font-size: 13px; }

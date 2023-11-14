@@ -93,7 +93,8 @@ Sobreescribiendo los estilos de bootstrap
   background-color: rgba(2, 85, 125, 0.5); }
 
 .imagen {
-  width: 100%; }
+  width: 100%;
+  min-height: 20vh; }
 
 .iconos-container {
   position: absolute;

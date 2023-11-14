@@ -135,6 +135,18 @@ Sobreescribiendo los estilos de bootstrap
 .text-icon {
   font-size: 8px; }
 
+.bg-1 {
+  background-image: url("/images/IMAGE  CATEGORY ADMINISTRATION.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; }
+
 html {
   font-size: 13px; }
 
@@ -154,7 +166,13 @@ SHOW DE LOS MEDIAS QUERIES
 
   .icono-centrado {
     width: 120px;
-    height: 120px; } }
+    height: 120px; }
+
+  .study-img {
+    height: 10px; }
+
+  .card-height {
+    height: 245px; } }
 @media (min-width: 576px) {
   .contenedor-circulo {
     width: 60px;

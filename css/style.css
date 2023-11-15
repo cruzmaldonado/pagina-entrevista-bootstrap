@@ -46,6 +46,12 @@ Sobreescribiendo los estilos de bootstrap
   margin: 0;
   padding: 0; }
 
+.form-hero {
+  top: 40%;
+  left: 10px;
+  margin: 0;
+  padding: 0; }
+
 .video-container {
   position: relative; }
 
@@ -66,8 +72,14 @@ Sobreescribiendo los estilos de bootstrap
 
 .line-120 {
   border-bottom: 3px solid #6c757d;
-  width: 120%;
+  width: 100%;
   margin: 8px 0; }
+
+.line {
+  border-bottom: 3px solid #6c757d;
+  width: 14vw;
+  height: 4px;
+  margin: 4px 0; }
 
 .line-300 {
   border-bottom: 3px solid #6c757d;
@@ -162,6 +174,18 @@ Sobreescribiendo los estilos de bootstrap
 .bg-6 {
   background-image: url("/images/IMAGE  CATEGORY BIOLOGY.jpg"); }
 
+.bg-7 {
+  background-image: url("/images/IMAGE TEAM 1.jpg"); }
+
+.bg-8 {
+  background-image: url("/images/IMAGE TEAM 2.jpg"); }
+
+.bg-9 {
+  background-image: url("/images/IMAGE TEAM 4.jpg"); }
+
+.bg-10 {
+  background-image: url("/images/IMAGE TEAM 3.jpg"); }
+
 .card-effect {
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
@@ -220,6 +244,38 @@ images-team {
       -ms-flex-align: center;
           align-items: center;
   color: white; }
+
+.container-2 {
+  width: 300px;
+  height: 200px;
+  margin: 50px auto;
+  background-color: #f0f0f0;
+  overflow: hidden;
+  position: relative; }
+
+.inner-container-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%; }
+
+.box-2 {
+  width: 48%;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px; }
+
+.button-jeff {
+  top: -10px;
+  left: 40px;
+  z-index: 4; }
 
 html {
   font-size: 13px; }

@@ -173,6 +173,27 @@ Sobreescribiendo los estilos de bootstrap
   -webkit-transform: scale(1.05);
           transform: scale(1.05); }
 
+.custom-card {
+  width: 150px;
+  height: 200px; }
+
+images-team {
+  position: relative; }
+
+.main-image {
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.rounded-image {
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border: 5px solid #efefef;
+  border-radius: 50%; }
+
 html {
   font-size: 13px; }
 

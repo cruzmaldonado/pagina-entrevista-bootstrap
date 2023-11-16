@@ -70,6 +70,9 @@ Sobreescribiendo los estilos de bootstrap
   background-color: #6c757d;
   margin-right: 10px; }
 
+.text-form-hero {
+  border-bottom: 8px solid #FFB749; }
+
 .line-120 {
   border-bottom: 3px solid #6c757d;
   width: 100%;

@@ -1,6 +1,60 @@
 /*---------------------------------------
 Sobreescribiendo los estilos de bootstrap
 ---------------------------------------*/
+.bg-primary {
+  background-color: #02557D !important; }
+
+.text-primary {
+  color: #02557D !important; }
+
+.btn-primary {
+  background-color: #02557D !important;
+  border-color: #001119 !important; }
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #01334b !important; }
+
+.btn-primary:active {
+  background-color: #001119 !important;
+  border-color: black !important; }
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(2, 85, 125, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(2, 85, 125, 0.5) !important; }
+
+/* */
+.bg-secondary {
+  background-color: #FFB747 !important; }
+
+.text-secondary {
+  color: #FFB747 !important; }
+
+.btn-secondary {
+  background-color: #FFB747 !important;
+  border-color: #e08800 !important; }
+
+.btn-secondary:hover,
+.btn-secundario:focus {
+  background-color: #ffa314 !important; }
+
+.btn-secondary:active {
+  background-color: #e08800 !important;
+  border-color: #ad6900 !important; }
+
+.btn-secundary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 183, 71, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(255, 183, 71, 0.5) !important; }
+
+.btn-outline-secondary {
+  color: #FFB747;
+  border-color: #FFB747; }
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  background-color: #FFB747 !important;
+  border-color: #ffa314 !important; }
+
 /*---------------------------------------
             ESTILOS DE LA PAGINA
 ---------------------------------------*/
@@ -67,25 +121,29 @@ Sobreescribiendo los estilos de bootstrap
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #6c757d;
+  background-color: #ffb747;
   margin-right: 10px; }
 
 .text-form-hero {
   border-bottom: 8px solid #FFB749; }
 
+.form-principal {
+  top: -100px;
+  right: 60px; }
+
 .line-120 {
-  border-bottom: 3px solid #6c757d;
+  border-bottom: 3px solid #ffb747;
   width: 100%;
   margin: 8px 0; }
 
 .line {
-  border-bottom: 3px solid #6c757d;
+  border-bottom: 3px solid #ffb747;
   width: 14vw;
   height: 4px;
   margin: 4px 0; }
 
 .line-300 {
-  border-bottom: 3px solid #6c757d;
+  border-bottom: 3px solid #ffb747;
   width: 120%;
   margin: 8px 0; }
 

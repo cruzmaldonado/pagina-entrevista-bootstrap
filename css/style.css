@@ -90,17 +90,21 @@ Sobreescribiendo los estilos de bootstrap
           transform: scaleX(1); }
 
 .margin-hero {
-  margin-top: 72px; }
+  margin-top: 60px; }
 
 .video-class {
   top: 0;
   left: 0;
   width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0; }
+
+.video-class video {
+  width: 100%;
   height: 100vh;
   -o-object-fit: cover;
-     object-fit: cover;
-  margin-top: -5px;
-  padding: 0; }
+     object-fit: cover; }
 
 .form-hero {
   top: 40%;
@@ -342,6 +346,11 @@ SHOW DE LOS MEDIAS QUERIES
   .margin-hero {
     margin-top: 34px; } }
 @media (min-width: 768px) {
+  .video-class {
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-top: -5px; }
+
   .line-300 {
     width: 300%; }
 
@@ -366,5 +375,8 @@ SHOW DE LOS MEDIAS QUERIES
   .icono-centrado {
     width: 40px;
     height: 40px; } }
+@media (min-width: 668px) {
+  .video-class {
+    margin-top: -7px; } }
 
 /*# sourceMappingURL=style.css.map */

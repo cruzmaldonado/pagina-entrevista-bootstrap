@@ -64,7 +64,7 @@
               <div class="d-inline ml-1">info@email.com</div>
             </a>
           </div>
-          <div class="col text-right mr-3">
+          <div class="col text-right mr-2">
             <a
               class="hover-line text-white text-decoration-none btn px-2 mx-0"
               href="https://www.youtube.com/"
@@ -122,7 +122,200 @@
     </header>
 
     <!--HERO-->
-    
+    <section class="container-fluid px-0 margin-hero video-container ">
+      <video class="video-class hero-container " autoplay loop muted>
+        <source src="/video/hero-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <!--Elementos dentro del video-->
+      <div class="container-fluid">
+        <nav
+          class="h6 h4-md navbar navbar-dark navbar-expand-sm fixed-top m-0 nav-video"
+        >
+          <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+              <img
+                src="/images/LOGO.png"
+                alt="logo empresa"
+                width="60
+                            px"
+                height="40px"
+              />
+            </a>
+            <button
+              type="button"
+              class="navbar-toggler"
+              data-toggle="collapse"
+              data-target="#menu-principal"
+              aria-controls="menu-principal"
+              aria-expanded="false"
+              aria-label="Desplegar menu de navegación"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-right" id="menu-principal">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a href="#About-us" class="nav-link">About US</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#Course" class="nav-link">Course</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#Team" class="nav-link">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#Contact-us" class="nav-link">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="position-absolute container-fluid form-hero fixed">
+          <div class="row">
+            <div class="col-6 ">
+
+              <div class="d-none d-sm-block">
+                <h3 class="text-white">Welcome a the University</h3>
+                <div class="line">
+                </div>
+                <h1 ><p class="text-left text-white font-weight-bold small">We are an Online platform to make learning</p></h1>
+              </div>
+              
+                <div class="d-block d-sm-none">
+                  <p class="text-white pb-2  ">Welcome a the University
+                    <div class="line">
+                    </div>
+                  </p>
+                  <p class="text-left text-white font-weight-bold small">We are an Online platform to make learning</p>
+                </div>
+
+                
+              
+              
+              <button
+                type="button" style="font-size: 10px;"
+                class="btn btn-secondary text-white rounded-pill px-5  border-white d-none d-md-block"
+              >
+              Get Now </button>
+            </div>
+            <div class="col-6">
+              <!--Modal-->
+
+              <!-- Button trigger modal -->
+<button style="font-size: 10px;" type="button" class="btn btn-secondary text-white rounded-pill px-5 border white d-block d-md-none" data-toggle="modal" data-target="#exampleModal1">
+  REGIST NOW!
+</button>
+
+<!-- Modal -->
+<div class="modal" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <div class="container bg-white rounded " style="max-width: 380px;">
+          <div class="text-form-hero bg-primary">
+            <h5 class="text-center mb-4 pt-4">Register Now!</h5>
+          </div>
+        
+          <div class="container-fluid bg-light px-0">
+            <form class="px-3">
+              <div class="form-group mb-1">
+                <label for="name"></label>
+                <input type="text" class="form-control" style="background-color: #D9D9D9;" id="name" placeholder="Name">
+              </div>
+        
+              <div class="form-row">
+                <div class="form-group col-6 mb-0">
+                  <label for="email"></label>
+                  <input type="email" class="form-control" style="background-color: #D9D9D9;" id="email" placeholder="Email">
+                </div>
+        
+                <div class="form-group col-6 mb-0">
+                  <label for="phone"></label>
+                  <input type="text" class="form-control" style="background-color: #D9D9D9;" id="phone" placeholder="Phone">
+                </div>
+              </div>
+        
+              <div class="form-group mb-0">
+                <label for="subject"></label>
+                <input type="text" class="form-control" style="background-color: #D9D9D9;" id="subject" placeholder="Subject">
+              </div>
+        
+              <div class="form-group mb-2">
+                <label for="message"></label>
+                <textarea class="form-control" id="message" style="background-color: #D9D9D9;" rows="3" placeholder="Message"></textarea>
+              </div class="mb-2">
+        
+              <button type="button" class="btn btn-secondary text-white rounded-pill px-5 mb-2" style="font-size: 12px;">
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+              <!--formulario-->
+              <div class="container bg-white rounded d-none d-md-block position-absolute form-principal" style="max-width: 380px;">
+                <div class="text-form-hero bg-primary">
+                  <h5 class="text-center mb-4 pt-4">Register Now!</h5>
+                </div>
+              
+                <div class="container-fluid bg-light px-0">
+                  <form class="px-3">
+                    <div class="form-group mb-1">
+                      <label for="name"></label>
+                      <input type="text" class="form-control" style="background-color: #D9D9D9;" id="name" placeholder="Name">
+                    </div>
+              
+                    <div class="form-row">
+                      <div class="form-group col-6 mb-0">
+                        <label for="email"></label>
+                        <input type="email" class="form-control" style="background-color: #D9D9D9;" id="email" placeholder="Email">
+                      </div>
+              
+                      <div class="form-group col-6 mb-0">
+                        <label for="phone"></label>
+                        <input type="text" class="form-control" style="background-color: #D9D9D9;" id="phone" placeholder="Phone">
+                      </div>
+                    </div>
+              
+                    <div class="form-group mb-0">
+                      <label for="subject"></label>
+                      <input type="text" class="form-control" style="background-color: #D9D9D9;" id="subject" placeholder="Subject">
+                    </div>
+              
+                    <div class="form-group mb-2">
+                      <label for="message"></label>
+                      <textarea class="form-control" id="message" style="background-color: #D9D9D9;" rows="3" placeholder="Message"></textarea>
+                    </div class="mb-2">
+              
+                    <button type="button" class="btn btn-secondary text-white rounded-pill px-5 mb-2" style="font-size: 12px;">
+                      Send
+                    </button>
+                  </form>
+                </div>
+              </div>
+
+
+            </div>
+            
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </section>
+
     <!--THE MOST POPULAR-->
     <section class="container">
       <div class="text-center text-md-left">

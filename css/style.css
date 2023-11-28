@@ -372,13 +372,13 @@ SHOW DE LOS MEDIAS QUERIES
     height: 10px; }
 
   .card-height {
-    height: 225px; } }
-.hero-container {
-  width: 100%;
-  height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover; }
+    height: 225px; }
 
+  .hero-container {
+    width: 100%;
+    height: 100vh;
+    -o-object-fit: cover;
+       object-fit: cover; } }
 @media (min-width: 576px) {
   .contenedor-circulo {
     width: 60px;
